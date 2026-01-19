@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Mubarrat Azim</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Mubarrat Azim</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <div class="profile-image-container">
+        <img src="image/profile.jpg" alt="Mubarrat Azim" class="profile-image" id="profileImage">
+        <div class="image-placeholder">Profile Photo</div>
+      </div>
+      <div class="hero-text">
+        <h2>Hi, I'm Mubarrat Azim</h2>
+        <p>Currently I am an undergrade student and trying to be a better developer</p>
+        <a href="#projects" class="btn">See my work</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h3>About Me</h3>
+    <p>I am passionate about technology and enjoy building new projects. This portfolio is my first project. Although I try to improve and make myself better everyday.</p>
+  </section>
+
+  <section id="projects">
+    <h3>Projects</h3>
+    <div class="grid">
+      <div class="card project-card">
+        <div class="project-image-container">
+          <img src="images/project1.jpg" alt="Project One" class="project-image">
+          <div class="image-placeholder">Project Image</div>
+        </div>
+        <h4>Project One</h4>
+        <p>This is a short project about my portfolio as a beginner</p>
+      </div>
+      <div class="card project-card">
+        <div class="project-image-container">
+          <img src="images/project2.jpg" alt="Project Two" class="project-image">
+          <div class="image-placeholder">Project Image</div>
+        </div>
+        <h4>Project Two</h4>
+        <p>Coming soon...</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h3>Skills</h3>
+    <div class="skills-section">
+      <b>Technical Skills</b>
+      <div class="grid">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">Photoshop</div>
+        <div class="card">Videography</div>
+      </div>
+    </div>
+    
+    <div class="skills-section">
+      <b>Soft Skills</b>
+      <div class="grid">
+        <div class="card">Communication</div>
+        <div class="card">Teamwork</div>
+        <div class="card">Time Management</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h3>Contact</h3>
+    <p>You can reach me at:</p>
+    <p><strong>mubarratazim@email.com</strong></p>
+  </section>
+
+  <section id="gallery">
+    <h3>Gallery</h3>
+    <p>Some moments from my journey</p>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="images/gallery1.jpg" alt="Gallery Image 1" class="gallery-image">
+        <div class="image-placeholder">Gallery 1</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery2.jpg" alt="Gallery Image 2" class="gallery-image">
+        <div class="image-placeholder">Gallery 2</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery3.jpg" alt="Gallery Image 3" class="gallery-image">
+        <div class="image-placeholder">Gallery 3</div>
+      </div>
+      <div class="gallery-item">
+        <img src="images/gallery4.jpg" alt="Gallery Image 4" class="gallery-image">
+        <div class="image-placeholder">Gallery 4</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Image Modal -->
+  <div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+    <div id="caption"></div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Mubarrat Azim. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
